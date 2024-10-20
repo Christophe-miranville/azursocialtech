@@ -1,0 +1,43 @@
+body{
+    background-color:whitesmoke;
+    padding: 30px;
+}
+
+header {
+    padding-bottom: 30px;
+}
+
+h1{
+    color: rgba(255, 166, 0, 0.61);
+
+}
+
+.navbar>ol{
+display: flex;
+flex-direction: row;
+justify-content:space-around
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e5ec;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+li:hover {
+    background-color: rgba(125, 128, 133, 0.205);
+}
+
+.navbar > ol > li:first-child {
+    background-color: transparent;
+    box-shadow: none;
+}
