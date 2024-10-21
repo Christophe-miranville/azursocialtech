@@ -125,12 +125,26 @@ textarea {
     padding: 5px 10px;
     margin: 10px;
 }
+.discussion>button {
+    margin-left: auto;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e0e5ec;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    cursor: pointer;
+
+}
 .picture_discussion{
     height: 50px;
     width: 50px;
     border-radius: 10px;
     margin-right: 15px;
 }
-.name_contact{
+.title_discussion, .name_contact{
     font-weight: 800;
+}
+.title_discussion{
+    font-size: 1.2rem;
+    padding-left: 10px;
 }
