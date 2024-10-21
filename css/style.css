@@ -1,5 +1,5 @@
-body{
-    background-color:whitesmoke;
+body {
+    background-color: whitesmoke;
     padding: 30px;
 }
 
@@ -7,18 +7,18 @@ header {
     padding-bottom: 30px;
 }
 
-h1{
+h1 {
     color: rgba(255, 166, 0, 0.61);
 
 }
 
-.navbar>ol{
-display: flex;
-flex-direction: row;
-justify-content:space-around
+.navbar>ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
 }
 
-li{
+li {
     list-style-type: none;
     display: flex;
     text-align: center;
@@ -37,7 +37,66 @@ li:hover {
     background-color: rgba(125, 128, 133, 0.205);
 }
 
-.navbar > ol > li:first-child {
+a {
+    text-decoration: none;
+}
+
+.navbar>ol>li:first-child {
     background-color: transparent;
     box-shadow: none;
+}
+
+main {
+    padding: 0 150px;
+}
+
+.post {
+    display: flex;
+    border-radius: 25px;
+    padding: 30px;
+    height: 600px;
+    width: 650px;
+    background-color: #e0e5ec;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+}
+
+.picture_author {
+    height: 50px;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.picture_post {
+    width: 600px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.top_post {
+    display: flex;
+    align-items: center;
+}
+
+.bottom_post {
+    justify-content: end;
+    text-align: center;
+
+}
+
+.react {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+    max-width: 100%;
+    resize: none;
+    border: none;
+    height: 35px;
 }
