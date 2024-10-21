@@ -9,6 +9,7 @@ header {
 
 h1 {
     color: rgba(255, 166, 0, 0.61);
+    font-size: 2.5rem;
 
 }
 
@@ -47,15 +48,22 @@ a {
 }
 
 main {
-    padding: 0 150px;
+    padding: 0 50px;
+}
+
+.section_container {
+    display: grid;
+    grid-template-columns: 65% 25%;
+    justify-items: center;
+    gap: 10px;
 }
 
 .post {
     display: flex;
     border-radius: 25px;
     padding: 30px;
-    height: 600px;
-    width: 650px;
+    height: 700px;
+    width: 750px;
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
 }
@@ -67,7 +75,7 @@ main {
 }
 
 .picture_post {
-    width: 600px;
+    width: 700px;
     border-radius: 25px;
     padding: 15px;
 }
@@ -99,4 +107,30 @@ textarea {
     resize: none;
     border: none;
     height: 35px;
+}
+
+.discussions {
+    align-items: center;
+    border-radius: 25px;
+    padding: 30px;
+    width: 650px;
+    background-color: #e0e5ec;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+}
+.discussion{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+}
+.picture_discussion{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.name_contact{
+    font-weight: 800;
 }
