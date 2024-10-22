@@ -68,6 +68,7 @@ main {
     display: flex;
     border-radius: 25px;
     padding: 30px;
+    margin-bottom: 50px;
     height: 700px;
     width: 750px;
     background-color: #e0e5ec;
