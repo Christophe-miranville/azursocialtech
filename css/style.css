@@ -3,6 +3,8 @@ body {
     padding: 30px;
 }
 
+/*header*/
+
 header {
     padding-bottom: 30px;
 }
@@ -47,6 +49,8 @@ a {
     box-shadow: none;
 }
 
+/* main*/
+
 main {
     padding: 0 50px;
 }
@@ -57,6 +61,8 @@ main {
     justify-items: center;
     gap: 10px;
 }
+
+/*Left section*/
 
 .post {
     display: flex;
@@ -109,6 +115,8 @@ textarea {
     height: 35px;
 }
 
+/*Right section*/
+
 .discussions {
     align-items: center;
     border-radius: 25px;
@@ -117,7 +125,8 @@ textarea {
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
 }
-.discussion{
+
+.discussion {
     display: flex;
     align-items: center;
     background-color: whitesmoke;
@@ -125,6 +134,24 @@ textarea {
     padding: 5px 10px;
     margin: 10px;
 }
+
+.picture_discussion {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.title_discussion,
+.name_contact {
+    font-weight: 800;
+}
+
+.title_discussion {
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
 .discussion>button {
     margin-left: auto;
     border: none;
@@ -134,17 +161,4 @@ textarea {
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
     cursor: pointer;
 
-}
-.picture_discussion{
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    margin-right: 15px;
-}
-.title_discussion, .name_contact{
-    font-weight: 800;
-}
-.title_discussion{
-    font-size: 1.2rem;
-    padding-left: 10px;
 }
