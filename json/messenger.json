@@ -1,0 +1,19 @@
+{
+    "discussions": [
+      {
+        "name": "Joh",
+        "last_message": "last conversation",
+        "picture": "/img/profil (2).jpg"
+      },
+      {
+        "name": "Jean",
+        "last_message": "last conversation",
+        "picture": "/img/profil (3).jpg"
+      },
+      {
+        "name": "Luc",
+        "last_message": "last conversation",
+        "picture": "/img/profil (4).jpg"
+      }
+    ]
+  }

@@ -1,0 +1,17 @@
+.container_flex{
+    display: flex;
+}
+
+.friend {
+    border-radius: 25px;
+    padding: 30px;
+    margin:50px;
+    width: 150px;
+    height: 150px;
+    background-color: #e0e5ec;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+}
+
+h4{
+    font-size: 2rem;
+}
