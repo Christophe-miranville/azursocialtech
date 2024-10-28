@@ -9,7 +9,7 @@ header {
     padding-bottom: 30px;
 }
 
-h1 {
+.title {
     color: rgba(255, 166, 0, 0.61);
     font-size: 2.5rem;
 
@@ -21,7 +21,7 @@ h1 {
     justify-content: space-around
 }
 
-li {
+.menu-item {
     list-style-type: none;
     display: flex;
     text-align: center;
@@ -36,7 +36,7 @@ li {
     transition: 0.3s ease;
 }
 
-li:hover {
+.menu-item:hover {
     background-color: rgba(125, 128, 133, 0.205);
 }
 
@@ -44,7 +44,7 @@ a {
     text-decoration: none;
 }
 
-.navbar>ol>li:first-child {
+.navbar>ol>.menu-item:first-child {
     background-color: transparent;
     box-shadow: none;
 }
