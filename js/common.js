@@ -2,9 +2,6 @@
 
 function generateHeader() {
 
-
-
-
     //on attribue une variable à l'élement qui a pour id "header".
     let header = document.getElementById('header');
 
@@ -18,12 +15,12 @@ function generateHeader() {
     //nav
     let nav = document.createElement("nav");
     header.appendChild(nav);
-    nav.classList.add("navbar");
+    nav.classList.add("nav-bar");
 
     //ol
     let menu = document.createElement("ol");
     nav.appendChild(menu);
-    
+
     //menu_li
     let titleItem = document.createElement("li");
     titleItem.classList.add("menu-item");
@@ -31,10 +28,10 @@ function generateHeader() {
 
     //h1
     let title = document.createElement("h1");
-    titleItem.appendChild(title);
     title.setAttribute("alt", "AzurSocialTech")
     title.classList.add("title");
     title.textContent = "AzurSocialTech";
+    titleItem.appendChild(title);
 
     //li_home
     let homeItem = document.createElement("li");
@@ -43,9 +40,9 @@ function generateHeader() {
 
     //link_home
     let linkHome = document.createElement("a");
-    homeItem.appendChild(linkHome);
     linkHome.setAttribute("href", "index.html");
     linkHome.textContent = "Accueil";
+    homeItem.appendChild(linkHome);
 
     //li_friends
     let friendsItem = document.createElement("li");
@@ -72,3 +69,17 @@ function generateHeader() {
 
 generateHeader();
 
+
+function generateFooter() {
+
+    let footer = document.getElementById("footer");
+
+    let sign = document.createElement("p");
+    sign.classList.add("footer");
+    sign.textContent = "Christophe MIRANVILLE pour AzurTech @ 2024";
+    footer.appendChild(sign);
+
+
+}
+
+generateFooter();

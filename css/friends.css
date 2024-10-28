@@ -1,3 +1,6 @@
+main {
+    min-height: 750px;
+}
 .container_flex{
     display: flex;
 }
