@@ -1,7 +1,7 @@
 //Gestion des reactions de post
 function setupReactions() {
-//Selectionne tous les elements qui ont la classe react i.
-const elements = document.querySelectorAll(".react<i");
+//Selectionne tous les elements i qui ont la classe react.
+const elements = document.querySelectorAll(".react i");
 
 // Boucle forEach afin d'appliquer l'écouteur d'événement sur chaque element reaction
 elements.forEach((element) => {

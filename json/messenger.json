@@ -1,17 +1,17 @@
 {
     "discussions": [
       {
-        "name": "Joh",
+        "pseudo": "Joh",
         "last_message": "last conversation",
         "picture": "/img/profil (2).jpg"
       },
       {
-        "name": "Jean",
+        "pseudo": "Jean",
         "last_message": "last conversation",
         "picture": "/img/profil (3).jpg"
       },
       {
-        "name": "Luc",
+        "pseudo": "Luc",
         "last_message": "last conversation",
         "picture": "/img/profil (4).jpg"
       }
