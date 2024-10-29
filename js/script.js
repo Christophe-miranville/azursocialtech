@@ -1,7 +1,7 @@
 //Gestion des reactions de post
-const elements = [document.getElementById("like"),
-document.getElementById("love"),
-document.getElementById("dislike")]
+function setupReactions() {
+//Selectionne tous les elements qui ont la classe react i.
+const elements = document.querySelectorAll(".react<i");
 
 // Boucle forEach afin d'appliquer l'écouteur d'événement sur chaque element reaction
 elements.forEach((element) => {
@@ -22,3 +22,5 @@ elements.forEach((element) => {
         element.classList.toggle("fa-solid");
     });
 });
+
+}
