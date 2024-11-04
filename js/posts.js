@@ -20,7 +20,7 @@ function postsView(posts) {
     const postsContainer = document.getElementById("posts-container");
 
     //Pour chaque objet du tableau on crée des éléments HTML
-    posts.forEach(post => {
+    posts.forEach((post, index) => {
         const postElement = document.createElement('div');
         postElement.classList.add('post');
 
@@ -41,7 +41,12 @@ function postsView(posts) {
                                 <i id="dislike" class="fa-regular fa-thumbs-down"></i>
                                 <i id="love" class="fa-regular fa-heart"></i>
                             </div>
-                            <textarea placeholder="Commenter ici" name="comment_post" id=""></textarea>
+
+                            <div id="comments_container-${index}" class="comments-container"></div>
+
+                            <input id="pseudo-${index}" class="pseudo_input" placeholder=" saisir votre pseudo"></input>
+                            <textarea id="comment-${index}" class="comment_input" placeholder="Commenter ici" name="comment_post"></textarea>
+                            <button class="comm_button" onclick="AddComm(${index})"> Ajouter le commentaire </button>
                         </div>
                     </div>
         `;
@@ -49,6 +54,26 @@ function postsView(posts) {
         //Ajout d'un element post au parent conteneur de posts
         postsContainer.appendChild(postElement);
     });
+}
+
+function AddComm(index) {
+    const pseudoInput = document.getElementById(`pseudo-${index}`);
+    const commentInput = document.getElementById(`comment-${index}`);
+    const commentsContainer = document.getElementById(`comments_container-${index}`);
+
+    const new_comm = document.createElement("p");
+    new_comm.classList.add("comment");
+
+    if (pseudoInput.value.trim() && commentInput.value.trim()) {
+        new_comm.innerHTML = `<strong>${pseudoInput.value}</strong>: ${commentInput.value}`
+        commentsContainer.appendChild(new_comm);
+        pseudoInput.value = "";
+        commentInput.value = "";
+    } else {
+        alert("Veuillez remplir les deux champs obligatoires pour l'ajout d'un commentaire")
+    }
+
+
 }
 
 //demande à loadJSONdata d'attendre le chargement du DOM pour s'éxécuter

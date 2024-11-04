@@ -93,7 +93,7 @@ img {
     color: rgb(94, 94, 209);
 }
 
-.name_author {
+.name_contact {
     padding-right: 20px;
 }
 
@@ -103,4 +103,11 @@ p {
 
 textarea {
     resize: none;
+}
+
+.discussion div p:last-of-type {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

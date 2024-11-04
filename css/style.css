@@ -82,7 +82,6 @@ main {
     border-radius: 25px;
     padding: 30px;
     margin-bottom: 50px;
-    height: 700px;
     width: 750px;
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
@@ -119,6 +118,10 @@ main {
     padding-bottom: 10px;
 }
 
+.react>i {
+    cursor: pointer;
+}
+
 textarea {
     border-radius: 5px;
     padding: 5px;
@@ -127,6 +130,25 @@ textarea {
     resize: none;
     border: none;
     height: 35px;
+}
+
+.comment_input {
+    margin: 10px;
+}
+
+.pseudo_input {
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    font-size: 1.2rem;
+}
+
+.comm_button {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px grey;
+    padding: 5px;
+    cursor: pointer;
 }
 
 /*Right section*/
@@ -174,7 +196,13 @@ textarea {
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
     cursor: pointer;
+}
 
+.discussion>div>p:last-of-type {
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /*Footer*/

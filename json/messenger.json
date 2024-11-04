@@ -2,17 +2,22 @@
     "discussions": [
       {
         "pseudo": "Joh",
-        "last_message": "last conversation",
+        "last_message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure sapiente quisquam ipsum quia beatae saepe error numquam quas pariatur.",
         "picture": "/img/profil (2).jpg"
       },
       {
         "pseudo": "Jean",
-        "last_message": "last conversation",
+        "last_message": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere mollitia sed dolorem dolor sit porro ut doloremque, enim magni obcaecati!",
         "picture": "/img/profil (3).jpg"
       },
       {
         "pseudo": "Luc",
-        "last_message": "last conversation",
+        "last_message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae quibusdam quis laboriosam rem animi autem? Culpa et officiis repellendus rem enim atque rerum ipsam dicta. Cum fugiat dolores tempora.",
+        "picture": "/img/profil (4).jpg"
+      },
+      {
+        "pseudo": "Lulu",
+        "last_message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab similique non vero rem officiis soluta libero, nesciunt tempora perspiciatis dolorum quis maiores quod minus quia voluptate esse ducimus facilis illum alias temporibus qui iusto labore.",
         "picture": "/img/profil (4).jpg"
       }
     ]

@@ -16,15 +16,14 @@ function messengerView(discussions) {
         const discussionElement = document.createElement("div");
         discussionElement.classList.add("discussion");
 
-        discussionElement.innerHTML=`
+        discussionElement.innerHTML = `
         <img class="picture_discussion" src="${discussion.picture}" alt="discussion_picture">
-                    <div>
+                    <div class="message">
                         <p class="name_contact">${discussion.pseudo}</p>
-                        <p>${discussion.last_message}</p>
+                        <p class="last_message short long"> ${discussion.last_message}</p>
                     </div>
-                    <button>more...</button>
+                    <button><a href="messenger.html">more...</a></button>
         `;
-        
         messengerContainer.appendChild(discussionElement);
     });
 

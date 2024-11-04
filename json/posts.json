@@ -1,28 +1,28 @@
 {
-    "posts": [
-      {
-        "author": "Kriss",
-        "description": "Randonnée du jour avec un temps mitigé.",
-        "author_picture": "/img/profil (1).jpg",
-        "post_picture": "/img/picture_post (1).jpeg"
-      },
-      {
-        "author": "Jean",
-        "description": "Belle journée au bord du lac.",
-        "author_picture": "/img/profil (3).jpg",
-        "post_picture": "/img/picture_post (2).jpeg"
-      },
-      {
-        "author": "Luc",
-        "description": "Belle journée au bord du lac.",
-        "author_picture": "/img/profil (3).jpg",
-        "post_picture": "/img/picture_post (2).jpeg"
-      },
-      {
-        "author": "Louise",
-        "description": "Belle journée au bord du lac.",
-        "author_picture": "/img/profil (3).jpg",
-        "post_picture": "/img/picture_post (2).jpeg"
-      }
-    ]
-  }
+  "posts": [
+    {
+      "author": "Kriss",
+      "description": "Randonnée du jour avec un temps mitigé.",
+      "author_picture": "/img/profil (1).jpg",
+      "post_picture": "/img/picture_post (1).jpeg"
+    },
+    {
+      "author": "Jean",
+      "description": "Belle journée au bord du lac.",
+      "author_picture": "/img/profil (3).jpg",
+      "post_picture": "/img/picture_post (2).jpeg"
+    },
+    {
+      "author": "Luc",
+      "description": "Belle journée au bord du lac.",
+      "author_picture": "/img/profil (3).jpg",
+      "post_picture": "/img/picture_post (2).jpeg"
+    },
+    {
+      "author": "Louise",
+      "description": "Belle journée au bord du lac.",
+      "author_picture": "/img/profil (3).jpg",
+      "post_picture": "/img/picture_post (2).jpeg"
+    }
+  ]
+}
