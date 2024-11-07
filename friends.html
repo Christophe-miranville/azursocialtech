@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/friends.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
     <script src="/js/common.js" defer></script>
+    <script src="/js/script.js"></script>
     <title>Friends</title>
 </head>
 
@@ -19,9 +22,11 @@
 
     <main>
 
-        <div class="friends_container">
+        <div class="friends_container sortable">
             <section class="best_friend container_flex">
-                <h4>Amis Proches</h4>
+                <div class="unsortable">
+                    <h4 class="">Amis Proches</h4>
+                </div>
 
                 <div class="friend">
                     <p>
@@ -34,51 +39,53 @@
                     <p>
                         Jean
                     </p>
-                    <img class="picture_friend "src="/img/profil (3).jpg" alt="">
+                    <img class="picture_friend " src="/img/profil (3).jpg" alt="">
                 </div>
 
                 <div class="friend">
                     <p>
                         Luc
                     </p>
-                    <img class="picture_friend "src="/img/profil (4).jpg" alt="">
+                    <img class="picture_friend " src="/img/profil (4).jpg" alt="">
                 </div>
 
                 <div class="friend">
                     <p>
                         Louise
                     </p>
-                    <img class="picture_friend "src="/img/profil (4).jpg" alt="">
+                    <img class="picture_friend " src="/img/profil (4).jpg" alt="">
             </section>
             <section class="casual_friend container_flex">
-                <h4>Amis</h4>
+                <div class="unsortable">
+                    <h4>Amis</h4>
+                </div>
 
                 <div class="friend">
                     <p>
                         Jacky
                     </p>
-                    <img class="picture_friend "src="" alt="">
+                    <img class="picture_friend " src="" alt="">
                 </div>
 
                 <div class="friend">
                     <p>
                         René
                     </p>
-                    <img class="picture_friend "src="" alt="">
+                    <img class="picture_friend " src="" alt="">
                 </div>
 
                 <div class="friend">
                     <p>
                         Paul
                     </p>
-                    <img class="picture_friend "src="" alt="">
+                    <img class="picture_friend " src="" alt="">
                 </div>
 
                 <div class="friend">
                     <p>
                         Léa
                     </p>
-                    <img class="picture_friend "src="" alt="">
+                    <img class="picture_friend " src="" alt="">
                 </div>
             </section>
         </div>
