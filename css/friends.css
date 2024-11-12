@@ -34,72 +34,37 @@ h4{
 .best_friend, .casual_friend{
     min-height: 80%;
     margin: 50px;
-    /* border: solid 2px black */
 }
 
 @media (max-width: 1023px) {
 
     .friend {
-        border-radius: 25px;
-        padding: 5px;
-        margin:auto;
         width: 100px;
-        background-color: #e0e5ec;
-        box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
-    }
-    
-    h4{
-        font-size: 2rem;
-        width: 200px;
-    }
-    .picture_friend{
-        padding: 5px;
-        border-radius: 20px;
-    }
-    
-    .best_friend{
-        border-bottom: 2px solid black;
-        padding-bottom: 50px;
-        margin-bottom: 50px;
     }
     
     .best_friend, .casual_friend{
-        min-height: 80%;
-        margin: 30px;
+        margin: 0 30px;
     }
 }
 
 @media (max-width: 767px) {
+
+    header{
+        padding-bottom: 0;
+    }
     .friend {
-        border-radius: 25px;
-        padding: 5px;
         margin: 20px;
-        width: 100px;
-        background-color: #e0e5ec;
-        box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
     }
     
     h4{
-        font-size: 2rem;
         width: 250px;
         margin: 20px;
         text-align: center;
     }
-    .picture_friend{
-        padding: 5px;
-        border-radius: 20px;
-    }
-    
-    .best_friend{
-        border-bottom: 2px solid black;
-        padding-bottom: 50px;
-        margin-bottom: 50px;
-    }
     
     .best_friend, .casual_friend{
-        min-height: 80%;
-        margin: 30px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
