@@ -13,6 +13,7 @@ main {
     height: 150px;
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    cursor: grab;
 }
 
 h4{
@@ -24,4 +25,11 @@ h4{
 
 .best_friend{
     border-bottom: 2px solid black;
+}
+
+.best_friend, .casual_friend{
+    width: 80%;
+    min-height: 80%;
+    margin: 20px;
+    /* border: solid 2px black */
 }

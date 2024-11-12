@@ -6,7 +6,7 @@ body {
 /*header*/
 
 header {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .title {
@@ -31,7 +31,7 @@ header {
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
     border-radius: 10px;
     height: 50px;
-    width: 350px;
+    width: 275px;
     transition: 0.3s ease;
     cursor: default;
 }
@@ -70,7 +70,7 @@ main {
 
 .section_container {
     display: grid;
-    grid-template-columns: 65% 25%;
+    grid-template-columns: 54% 45%;
     justify-items: center;
     gap: 10px;
 }
@@ -82,7 +82,7 @@ main {
     border-radius: 25px;
     padding: 30px;
     margin-bottom: 50px;
-    width: 750px;
+    width: 675px;
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
 }
@@ -157,7 +157,6 @@ textarea {
     align-items: center;
     border-radius: 25px;
     padding: 30px;
-    width: 650px;
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
 }
@@ -199,7 +198,7 @@ textarea {
 }
 
 .discussion>div>p:last-of-type {
-    max-width: 400px;
+    max-width: 385px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -215,4 +214,158 @@ textarea {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+}
+
+@media (max-width: 1439px) {
+
+    /*header max-1439px*/
+    .title {
+        font-size: 2rem;
+    }
+
+    .menu-item {
+        height: 50px;
+        width: 175px;
+    }
+
+    /* main max-1439px*/
+
+    main {
+        padding: 0 20px;
+    }
+
+    /*Left section max-1439px*/
+
+    .post {
+        padding: 15px;
+        width: 500px;
+    }
+
+    /*Right section max-1439px*/
+
+    .discussions {
+        padding: 10px;
+        width: 400px;
+    }
+
+    .discussion>div>p:last-of-type {
+        max-width: 215px;
+    }
+}
+
+
+@media (max-width: 1023px) {
+
+    /*header max-1023px*/
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .menu-item {
+        width: 150px;
+    }
+
+    /*Left section max-1023px*/
+
+    .post {
+        width: 400px;
+    }
+
+    /*Right section max-1023px*/
+
+    .discussions {
+        width: 300px;
+    }
+
+    .discussion>div>p:last-of-type {
+        max-width: 125px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 5px;
+    }
+
+    /*header max-767px*/
+
+    header {
+        padding-bottom: 15px;
+    }
+
+    .nav-bar>ol {
+        display: block;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .menu-item {
+        height: 20px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* main max-767px*/
+
+    main {
+        padding: 0 15px;
+    }
+
+    .section_container {
+        grid-template-columns: 97% 0%;
+    }
+
+    /*Left section max-767px*/
+
+    .post {
+        padding: 10px 0px;
+        width: 100%;
+        height: auto;
+        font-size: .8rem;
+        margin: 30px 0;
+    }
+
+    .picture_author {
+        height: 35px;
+        margin: 2px;
+    }
+
+    /*Right section max-767px*/
+
+    .discussions {
+        display: none;
+    }
+
+    /*Left section*/
+
+    .picture_author {
+        height: 50px;
+        border-radius: 25px;
+        margin: 15px;
+    }
+
+    .picture_post {
+        width: 700px;
+        border-radius: 25px;
+        padding: 15px;
+    }
+
+    .comment_input {
+        margin: 6px;
+        height: 27px;
+    }
+
+    .pseudo_input {
+        height: 22px;
+        font-size: 1rem;
+    }
+
+    /*Footer*/
+
+    #footer {
+        height: 50px;
+        font-size: 1rem;
+    }
 }

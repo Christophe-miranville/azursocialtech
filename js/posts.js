@@ -64,15 +64,17 @@ function AddComm(index) {
     const new_comm = document.createElement("p");
     new_comm.classList.add("comment");
 
+
     if (pseudoInput.value.trim() && commentInput.value.trim()) {
         new_comm.innerHTML = `<strong>${pseudoInput.value}</strong>: ${commentInput.value}`
         commentsContainer.appendChild(new_comm);
+        localStorage.setItem("new_comm",(new_comm.innerHTML));
+
         pseudoInput.value = "";
         commentInput.value = "";
     } else {
         alert("Veuillez remplir les deux champs obligatoires pour l'ajout d'un commentaire")
     }
-
 
 }
 
