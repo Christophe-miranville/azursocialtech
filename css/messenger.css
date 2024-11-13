@@ -2,10 +2,17 @@ main {
     padding: 20px 150px;
 }
 
+.section_container {
+    display: grid;
+    grid-template-columns: 32% 73%;
+    justify-items: end;
+    gap: 30px;
+}
+
 .messenger {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px;
     border-radius: 5px;
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
@@ -27,12 +34,17 @@ img {
     margin: 0;
 }
 
-.section_container {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    justify-items: end;
-    gap: 50px;
+.message{
+    display: flex;
+    justify-content: space-between;
 }
+
+.last_message{
+    width: 80%;
+    padding: 0 10px;
+}
+
+
 
 /*Right section*/
 
@@ -41,10 +53,10 @@ img {
 }
 
 .discussions {
+    width: 450px;
     align-items: center;
     border-radius: 25px;
-    padding: 30px;
-    width: 80%;
+    padding: 10px;
     background-color: #e0e5ec;
     box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
 }
@@ -106,8 +118,16 @@ textarea {
 }
 
 .discussion div p:last-of-type {
-    max-width: 250px;
+    max-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (max-width: 767px) {
+    
 }
