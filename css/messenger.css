@@ -71,13 +71,6 @@ img {
 
 }
 
-.picture_discussion {
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    margin-right: 15px;
-}
-
 .title_discussion,
 .name_contact {
     font-weight: 800;
@@ -124,10 +117,112 @@ textarea {
     text-overflow: ellipsis;
 }
 
+@media (max-width: 1439px) {
+    
+    img {
+        width: 150px;
+    }
+    
+    .name_messenger {
+        font-size: 1.6rem;
+    }
+
+    .short{
+        width: 78%;
+        padding: 0 5px;
+    }
+    
+    .last_message>.messenger{
+        padding: 0 5px;
+    }
+    
+    
+    
+    /*Right section*/
+    
+    .discussions {
+        width: 350px;
+    }
+    
+    .discussion div p:last-of-type {
+        max-width: 200px;
+    }
+}
+
 @media (max-width: 1023px) {
+
+    img {
+        width: 150px;
+    }
+    
+    .name_messenger {
+        font-size: 1.6rem;
+    }
+
+    .short{
+        width: 78%;
+        padding: 0 5px;
+    }
+    
+    .last_message>.messenger{
+        padding: 0 5px;
+    }
+    
+    
+    
+    /*Right section*/
+    
+    .discussions {
+        width: 275px;
+    }
+    
+    .discussion div p:last-of-type {
+        max-width: 200px;
+    }   
 
 }
 
 @media (max-width: 767px) {
+
+    main{
+        padding: 20px 0;
+    }
+    .section_container {
+        grid-template-columns: 85%;
+        justify-content: center;
+    }
+
+    .right{
+        width: auto;
+    }
+
+    .discussions{
+        display: none;
+    }
+    img {
+        width: 150px;
+    }
     
+    .name_messenger {
+        font-size: 1.6rem;
+    }
+
+    .short{
+        width: 78%;
+        padding: 0 5px;
+    }
+    
+    .last_message>.messenger{
+        padding: 0 5px;
+    }
+    
+    /*Right section*/
+    
+    .discussions {
+        width: 275px;
+    }
+    
+    .discussion div p:last-of-type {
+        max-width: 200px;
+    }  
 }
