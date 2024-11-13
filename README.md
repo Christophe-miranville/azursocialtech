@@ -10,4 +10,4 @@ Ne pas utiliser de Framework ni d'Api.
 Style : L'interface doit adopter un style "neumorphisme".
 À noter : L'UI/UX n'est pas prioritaire,
 
-![alt text](image-1.png)
+![alt text](src/image-1.png)
